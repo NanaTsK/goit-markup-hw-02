@@ -1,6 +1,14 @@
+:root {
+  --accent-color: var(--accent-color);
+  --primary-color: #434455;
+  --secondary-color: #2e2f42;
+  --primary-font: roboto, sans-serif;
+  --secondary-font: raleway, sans-serif;
+}
+
 body {
-  font-family: roboto, sans-serif;
-  color: #434455;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
   background-color: #fff;
 }
 
@@ -12,10 +20,50 @@ body {
 .link {
   text-decoration: none;
 }
-/* < < < < < < < < < < COMPONENTS  > > > > > > > > > > */
+/* < < < < < < < < < < COMPONENTS COLOR > > > > > > > > > > */
+/* to be color #fff */
+.title-theme-dark {
+  color: yellowgreen;
+}
+.title-theme-light {
+  color: #2e2f42;
+}
 
-/* < < < < < < < < < < COMPONENTS > > > > > > > > > > */
+.text-theme-dark {
+  color: #e7e9fc;
+}
 
+/* < < < < < < < < < < COMPONENTS STYLE > > > > > > > > > > */
+/* <<<<<<<<<<<<<<<<<<  h1 */
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* <<<<<<<<<<<<<<<<<< h2 */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* <<<<<<<<<<<<<<<<<< h3 */
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+/* <<<<<<<<<<<<<<<<<< basic text */
+.body-text-style {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* < < < < < < < < < < HEADER > > > > > > > > > > */
 
 .logo {
@@ -36,9 +84,6 @@ body {
 
 .menu-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -49,12 +94,12 @@ body {
 
 .contact-phone,
 .contact-email {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
+/* font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em; */
 
 /* < < < < < < < < < < HERO > > > > > > > > > > */
 
@@ -75,14 +120,6 @@ body {
   color: #fff;
 }
 
-.main-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: yellowgreen;
-}
 /* < < < < < < < < < < COMPANY ADVANTAGES > > > > > > > > > > */
 
 /* < < < < < < < < < < COMPANY PRODUCTS > > > > > > > > > > */

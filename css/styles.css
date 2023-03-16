@@ -2,9 +2,24 @@
   --accent-color: var(--accent-color);
   --primary-color: #434455;
   --secondary-color: #2e2f42;
-  --primary-font: roboto, sans-serif;
-  --secondary-font: raleway, sans-serif;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 }
+
+$color-iris: #4d5ae5;
+$color-ocean: #404bbf;
+$color-navy-blue: #2e2f42;
+
+$color-slate: #434455;
+
+$color-cornflower: #e7e9fc;
+$color-cloud: #f4f4fd;
+
+$color-navy-blue-modal: #2e2f42;
+$color-grey: #2e2f42;
+
+$color-green: #31d0aa;
+$color-light-slate: #8e8f99;
 
 body {
   font-family: var(--primary-font);
@@ -20,10 +35,35 @@ body {
 .link {
   text-decoration: none;
 }
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.modal-btn-hero {
+  background-color: #4d5ae5;
+  color: #fff;
+}
+.modal-btn-filter {
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #404bbf;
+  color: #fff;
+}
 /* < < < < < < < < < < COMPONENTS COLOR > > > > > > > > > > */
-/* to be color #fff */
+
 .title-theme-dark {
-  color: yellowgreen;
+  color: #fff;
 }
 .title-theme-light {
   color: #2e2f42;
@@ -43,7 +83,6 @@ body {
 }
 /* <<<<<<<<<<<<<<<<<< h2 */
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
@@ -59,7 +98,6 @@ body {
 }
 /* <<<<<<<<<<<<<<<<<< basic text */
 .body-text-style {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -78,7 +116,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-studio {
+.logo-studio-header {
   color: #2e2f42;
 }
 
@@ -88,36 +126,23 @@ body {
 }
 
 .menu-link:active,
-.contact-email:active {
+.contact-email:active,
+.contact-phone:active,
+.menu-link:hover,
+.contact-email:hover,
+.contact-phone:hover {
   color: #404bbf;
 }
 
-.contact-phone,
-.contact-email {
+.contact-email,
+.contact-phone {
   color: #434455;
 }
-/* font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em; */
 
 /* < < < < < < < < < < HERO > > > > > > > > > > */
 
-.modal-btn {
-  font-family: roboto, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  color: #ffffff;
-}
-.modal-btn:hover,
-.modal-btn:focus {
-  background-color: #404bbf;
-  color: #fff;
+.hero {
+  background-color: #2e2f42;
 }
 
 /* < < < < < < < < < < COMPANY ADVANTAGES > > > > > > > > > > */
@@ -125,5 +150,19 @@ body {
 /* < < < < < < < < < < COMPANY PRODUCTS > > > > > > > > > > */
 
 /* < < < < < < < < < < COMPANY TEAM > > > > > > > > > > */
-
+.team {
+  background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #fff;
+}
 /* < < < < < < < < < < FOOTER  > > > > > > > > > > */
+.logo-studio-footer {
+  color: #f4f4fd;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #e7e9fc;
+}

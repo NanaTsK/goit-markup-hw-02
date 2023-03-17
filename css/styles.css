@@ -20,11 +20,14 @@ body {
 
 .list {
   list-style: none;
-  font-style: normal;
 }
 
 .link {
   text-decoration: none;
+}
+
+.address {
+  font-style: normal;
 }
 
 .modal-btn {
@@ -68,7 +71,7 @@ body {
 /* <<<<<<<<<<<<<<<<<< Section Title */
 .section-title {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -88,37 +91,43 @@ body {
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HEADER */
-.logo-header {
+.logo {
   font-family: var(--font-secondary);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris-brand);
 }
+
 .logo-studio-header {
   color: var(--color-navy-blue-secondary);
 }
 
 .menu-link {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue-secondary);
 }
+
 .contact-email,
 .contact-phone {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: inherit;
 }
 
-.menu-link:is(:active, :hover),
-.contact-email:is(:active, :hover),
-.contact-phone:is(:active, :hover) {
+.menu-link:is(:active, :hover, :focus),
+.contact-email:is(:active, :hover, :focus),
+.contact-phone:is(:active, :hover, :focus) {
   color: var(--color-ocean-pressed);
 }
-
+/*TODO 
 .page-header {
 }
 .page-nav {
@@ -128,7 +137,8 @@ body {
 .menu-item {
 }
 .contact {
-}
+} */
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HERO */
 .hero {
   background-color: var(--color-navy-blue-secondary);
@@ -152,27 +162,16 @@ body {
   background-color: var(--color-cloud);
   color: var(--color-iris-brand);
 }
+/*TODO 
 .portfolio-link {
 }
 .portfolio {
-}
+} */
 .portfolio-text {
   color: var(--color-slate-primary);
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER */
-.logo-footer {
-  font-family: var(--font-secondary);
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-iris-brand);
-}
 
 .logo-studio-footer {
   color: var(--color-cloud);

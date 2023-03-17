@@ -26,8 +26,11 @@ body {
   text-decoration: none;
 }
 
-.address {
+.address-link {
   font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: inherit;
 }
 
 .modal-btn {
@@ -115,16 +118,8 @@ body {
   color: var(--color-navy-blue-secondary);
 }
 
-.contact-email,
-.contact-phone {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: inherit;
-}
-
 .menu-link:is(:active, :hover, :focus),
-.contact-email:is(:active, :hover, :focus),
-.contact-phone:is(:active, :hover, :focus) {
+.address-nav:is(:active, :hover, :focus) {
   color: var(--color-ocean-pressed);
 }
 /*TODO 

@@ -26,8 +26,10 @@ body {
   text-decoration: none;
 }
 
-.address-link {
+.address {
   font-style: normal;
+}
+.address-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: inherit;
@@ -119,9 +121,10 @@ body {
 }
 
 .menu-link:is(:active, :hover, :focus),
-.address-nav:is(:active, :hover, :focus) {
+.address-link:is(:active, :hover, :focus) {
   color: var(--color-ocean-pressed);
 }
+
 /*TODO 
 .page-header {
 }

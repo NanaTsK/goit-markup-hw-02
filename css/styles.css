@@ -110,7 +110,7 @@ body {
 }
 .contact-email,
 .contact-phone {
-  color: var(--color-slate-primary);
+  color: inherit;
 }
 
 .menu-link:is(:active, :hover),
@@ -155,6 +155,9 @@ body {
 .portfolio-link {
 }
 .portfolio {
+}
+.portfolio-text {
+  color: var(--color-slate-primary);
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER */

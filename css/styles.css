@@ -46,7 +46,7 @@ body {
   color: var(--color-white-main);
 }
 
-/* < < < < < < < < < < < < < < < < < < < < COMPONENTS COLOR */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< COMPONENTS COLOR */
 .title-theme-dark {
   color: var(--color-white-main);
 }
@@ -57,7 +57,7 @@ body {
   color: var(--color-cornflower);
 }
 
-/* < < < < < < < < < < < < < < < < < < < < COMPONENTS STYLE */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< COMPONENTS STYLE */
 /* <<<<<<<<<<<<<<<<<< Main Title */
 .main-title {
   font-size: 56px;
@@ -87,7 +87,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* < < < < < < < < < < < < < < < < < < < < HEADER */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HEADER */
 .logo-header {
   font-family: var(--font-secondary);
   font-style: normal;
@@ -129,16 +129,16 @@ body {
 }
 .contact {
 }
-/* < < < < < < < < < < < < < < < < < < < < HERO */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HERO */
 .hero {
   background-color: var(--color-navy-blue-secondary);
 }
 
-/* < < < < < < < < < < < < < < < < < < < < COMPANY ADVANTAGES */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< COMPANY ADVANTAGES */
 
-/* < < < < < < < < < < < < < < < < < < < < COMPANY PRODUCTS */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< COMPANY PRODUCTS */
 
-/* < < < < < < < < < < < < < < < < < < < < COMPANY TEAM */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< COMPANY TEAM */
 .team {
   background-color: var(--color-cloud);
 }
@@ -146,7 +146,7 @@ body {
   background-color: var(--color-white-main);
 }
 
-/** < < < < < < < < < < < < < < < < < < < < PORTFOLIO */
+/** <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< PORTFOLIO */
 
 .modal-btn-filter {
   background-color: var(--color-cloud);
@@ -157,7 +157,7 @@ body {
 .portfolio {
 }
 
-/* < < < < < < < < < < < < < < < < < < < < FOOTER */
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER */
 .logo-footer {
   font-family: var(--font-secondary);
   font-style: normal;

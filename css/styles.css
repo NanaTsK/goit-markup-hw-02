@@ -1,27 +1,16 @@
-/* :root {
-  --color-white-main:var(#ffffff)   done
-  --color-slate-primary: #434455;    done
-  --secondary-color: #2e2f42;
-  --font-primary: "Roboto", sans-serif;   done
-  --secondary-font: "Raleway", sans-serif;  done
-} */
-
 :root {
   --font-primary: "Roboto", sans-serif;
   --font-secondary: "Raleway", sans-serif;
   --color-white-main: #ffffff;
   --color-slate-primary: #434455;
   --color-navy-blue-secondary: #2e2f42;
+  --color-iris-brand: #4d5ae5;
+  --color-ocean-pressed: #404bbf;
+  --color-cloud: #f4f4fd;
+  --color-cornflower: #e7e9fc;
+  --color-green: #31d0aa;
+  --color-light-slate: #8e8f99;
 }
-
-$color-iris: #4d5ae5;
-$color-ocean: #404bbf;
-$color-slate: #434455;
-$color-cornflower: #e7e9fc;
-$color-cloud: #f4f4fd;
-
-$color-green: #31d0aa;
-$color-light-slate: #8e8f99;
 
 body {
   font-family: var(--font-primary);
@@ -49,34 +38,27 @@ body {
   cursor: pointer;
 }
 .modal-btn-hero {
-  background-color: #4d5ae5;
+  background-color: var(--color-iris-brand);
   color: var(--color-white-main);
 }
-.modal-btn-filter {
-  background-color: #f4f4fd;
-  color: #4d5ae5;
-}
-
 .modal-btn:is(:hover, :focus) {
-  background-color: #404bbf;
+  background-color: var(--color-ocean-pressed);
   color: var(--color-white-main);
 }
 
-/* < < < < < < < < < < COMPONENTS COLOR > > > > > > > > > > */
-
+/* < < < < < < < < < < < < < < < < < < < < COMPONENTS COLOR */
 .title-theme-dark {
   color: var(--color-white-main);
 }
 .title-theme-light {
   color: var(--color-navy-blue-secondary);
 }
-
 .text-theme-dark {
-  color: #e7e9fc;
+  color: var(--color-cornflower);
 }
 
-/* < < < < < < < < < < COMPONENTS STYLE > > > > > > > > > > */
-/* <<<<<<<<<<<<<<<<<<  Main Title */
+/* < < < < < < < < < < < < < < < < < < < < COMPONENTS STYLE */
+/* <<<<<<<<<<<<<<<<<< Main Title */
 .main-title {
   font-size: 56px;
   line-height: 1.07;
@@ -104,8 +86,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* < < < < < < < < < < HEADER > > > > > > > > > > */
 
+/* < < < < < < < < < < < < < < < < < < < < HEADER */
 .logo-header {
   font-family: var(--font-secondary);
   font-style: normal;
@@ -116,7 +98,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--color-iris-brand);
 }
 .logo-studio-header {
   color: var(--color-navy-blue-secondary);
@@ -128,42 +110,54 @@ body {
 }
 .contact-email,
 .contact-phone {
-  color: #434455;
+  color: var(--color-slate-primary);
 }
-/* .menu-link:active,
-.contact-email:active,
-.contact-phone:active,
-.menu-link:hover,
-.contact-email:hover,
-.contact-phone:hover {
-  color: #404bbf;
-} */
 
 .menu-link:is(:active, :hover),
 .contact-email:is(:active, :hover),
 .contact-phone:is(:active, :hover) {
-  color: #404bbf;
+  color: var(--color-ocean-pressed);
 }
 
-/* < < < < < < < < < < HERO > > > > > > > > > > */
-
+.page-header {
+}
+.page-nav {
+}
+.menu {
+}
+.menu-item {
+}
+.contact {
+}
+/* < < < < < < < < < < < < < < < < < < < < HERO */
 .hero {
   background-color: var(--color-navy-blue-secondary);
 }
 
-/* < < < < < < < < < < COMPANY ADVANTAGES > > > > > > > > > > */
+/* < < < < < < < < < < < < < < < < < < < < COMPANY ADVANTAGES */
 
-/* < < < < < < < < < < COMPANY PRODUCTS > > > > > > > > > > */
+/* < < < < < < < < < < < < < < < < < < < < COMPANY PRODUCTS */
 
-/* < < < < < < < < < < COMPANY TEAM > > > > > > > > > > */
+/* < < < < < < < < < < < < < < < < < < < < COMPANY TEAM */
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--color-cloud);
 }
 .team-list {
   background-color: var(--color-white-main);
 }
-/* < < < < < < < < < < FOOTER  > > > > > > > > > > */
 
+/** < < < < < < < < < < < < < < < < < < < < PORTFOLIO */
+
+.modal-btn-filter {
+  background-color: var(--color-cloud);
+  color: var(--color-iris-brand);
+}
+.portfolio-link {
+}
+.portfolio {
+}
+
+/* < < < < < < < < < < < < < < < < < < < < FOOTER */
 .logo-footer {
   font-family: var(--font-secondary);
   font-style: normal;
@@ -174,15 +168,12 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--color-iris-brand);
 }
 
 .logo-studio-footer {
-  color: #f4f4fd;
+  color: var(--color-cloud);
 }
 .footer {
   background-color: var(--color-navy-blue-secondary);
-}
-.footer-text {
-  color: #e7e9fc;
 }
